@@ -944,77 +944,58 @@ export const FeatureTabData = {
   ],
 };
 import featureTabDM01 from "@/images/home_1/strategy.jpg";
-import featureTaDMb02 from "@/images/home_1/buyers.jpg";
+import featureTabDM02 from "@/images/home_1/buyers.jpg";
 import featureTabDM03 from "@/images/home_1/optimize.jpg";
 
 export const FeatureTabDMData = {
   sectionContent: {
     title: "Our Process",
-    subTitle: "",
+    subTitle: " ",
     text:
-      "",
+      " ",
   },
   posts: [
     {
-      title: "Develop a Strategy",
+      title: "Marketing Starter",
       content:
-        "The main goal of any website is to help potential customer's find what they need quickly.",
+        "This package was designed to help kickstart your marketing and sales efforts while operating on a tight budget.",
       image: featureTabDM01,
       lists: [
         {
-          item: "Define the buyer persona.",
+          item: "Inbound Strategy",
         },
         {
-          item: "Understand the current customer base.",
+          item: "Buyer Persona Development",
         },
         {
-          item: "Identify new leads.",
+          item: "Content Strategy",
         },
         {
-          item: "Determine your business's current needs.",
+          item: "Sales & Marketing Alignment",
         },
       ],
     },
     {
-      title: "Attract the right buyers",
+      title: "Sales Starter",
       content:
-        "Tailor the content to speak to your ideal buyer instead of trying to serve everyone. ",
-      image: featureTabDM02,
-      lists: [
-        {
-          item: "Designed based on customer tendencies",
-        },
-        {
-          item: "Design to appeal to your customer motives.",
-        },
-        {
-          item: "Customer triggers to understand what your customers are doing.",
-        },
-        {
-          item: "Promote action and generate leads.",
-        },
-      ],
-    },
-    {
-      title: "Optimize",
-      content:
-        "A variety of screen sizes, resolution, and other factors are taken into consideration. ",
+        "The Sales Starter helps small to medium-sized businesses like yours establish a process for converting website leads and closing more business.",
       image: featureTabDM03,
       lists: [
         {
-          item: "Design for mobile, tablet, and desktop.",
+          item: "CRM Setup",
         },
         {
-          item: "Optimize core pages for keywords.",
+          item: "Reporting Setup",
         },
         {
-          item: "Submit to search engines for indexing.",
+          item: "Sales Strategy",
         },
         {
-          item: "Launch your new website design.",
+          item: "Sales & Marketing Alignment",
         },
       ],
     },
+    
   ],
 };
 export const ParallaxOneData = {
