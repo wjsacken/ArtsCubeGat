@@ -869,93 +869,75 @@ export const TestimonialsOneData = {
   ],
 };
 
-import featureTab01 from "@/images/home_1/c1.jpg";
-import featureTab02 from "@/images/home_1/c2.jpg";
-import featureTab03 from "@/images/home_1/c3.jpg";
+import featureTab01 from "@/images/home_1/strategy.jpg";
+import featureTab02 from "@/images/home_1/buyers.jpg";
+import featureTab03 from "@/images/home_1/optimize.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
-    title: "why choose us",
-    subTitle: "our benefits",
+    title: "Our Process",
+    subTitle: "",
     text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+      "",
   },
   posts: [
     {
-      title: "Latest technology",
+      title: "Develop a Strategy",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "The main goal of any website is to help potential customer's find what they need quickly.",
       image: featureTab01,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "Define the buyer persona.",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "Understand the current customer base.",
         },
         {
-          item: "The ability to connect up to 32 time clocks",
+          item: "Identify new leads.",
         },
         {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
+          item: "Determine your business's current needs.",
         },
       ],
     },
     {
-      title: "Awesome Support",
+      title: "Attract the right buyers",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "Tailor the content to speak to your ideal buyer instead of trying to serve everyone. ",
       image: featureTab02,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "Designed based on customer tendencies",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "Design to appeal to your customer motives.",
         },
         {
-          item: "The ability to connect up to 32 time clocks",
+          item: "Customer triggers to understand what your customers are doing.",
         },
         {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
+          item: "Promote action and generate leads.",
         },
       ],
     },
     {
-      title: "1 Click demo install",
+      title: "Optimize",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "A variety of screen sizes, resolution, and other factors are taken into consideration. ",
       image: featureTab03,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "Design for mobile, tablet, and desktop.",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "Optimize core pages for keywords.",
         },
         {
-          item: "The ability to connect up to 32 time clocks",
+          item: "Submit to search engines for indexing.",
         },
         {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
+          item: "Launch your new website design.",
         },
       ],
     },
