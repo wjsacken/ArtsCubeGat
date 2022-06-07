@@ -8,26 +8,26 @@ const ServiceSidebar = () => {
         <div className="meipaly_categorie_widget">
           <ul>
             <li>
-              <a href="#">Website Development</a>
-            </li>
-            <li>
-              <a href="#">Graphic Designing</a>
+              <a href="/web-design">Web Design</a>
             </li>
             <li>
               <a href="#">Digital Marketing</a>
             </li>
             <li>
-              <a href="#">SEO & Content Writting</a>
+              <a href="#">Google Ads</a>
             </li>
             <li>
-              <a href="#">App Development</a>
+              <a href="#">Inbound Marketing</a>
+            </li>
+            <li>
+              <a href="#">Sales Services</a>
             </li>
           </ul>
         </div>
       </aside>
       <aside className="widget categories">
         <div className="meipaly_services_help">
-          <h4>need meipaly help?</h4>
+          <h4>need help?</h4>
           <p>
             Prefer speaking with a human to filling out a form? call corporate
             office and we will connect you with a team member who can help.
