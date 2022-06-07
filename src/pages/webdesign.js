@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "@/components/footer";
 import Layout from "@/components/layout";
 import PageBanner from "@/components/page-banner";
-import ServiceDetails from "@/components/service-details";
+import ServiceDetails from "@/components/webdesign-details";
 import CallToActionOne from "@/components/call-to-action-one";
 import MenuContextProvider from "@/context/menu-context";
 import FeatureTabOne from "@/components/feature-tab-1";
