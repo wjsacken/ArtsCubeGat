@@ -943,7 +943,80 @@ export const FeatureTabData = {
     },
   ],
 };
+import featureTabDM01 from "@/images/home_1/strategy.jpg";
+import featureTaDMb02 from "@/images/home_1/buyers.jpg";
+import featureTabDM03 from "@/images/home_1/optimize.jpg";
 
+export const FeatureTabDMData = {
+  sectionContent: {
+    title: "Our Process",
+    subTitle: "",
+    text:
+      "",
+  },
+  posts: [
+    {
+      title: "Develop a Strategy",
+      content:
+        "The main goal of any website is to help potential customer's find what they need quickly.",
+      image: featureTabDM01,
+      lists: [
+        {
+          item: "Define the buyer persona.",
+        },
+        {
+          item: "Understand the current customer base.",
+        },
+        {
+          item: "Identify new leads.",
+        },
+        {
+          item: "Determine your business's current needs.",
+        },
+      ],
+    },
+    {
+      title: "Attract the right buyers",
+      content:
+        "Tailor the content to speak to your ideal buyer instead of trying to serve everyone. ",
+      image: featureTabDM02,
+      lists: [
+        {
+          item: "Designed based on customer tendencies",
+        },
+        {
+          item: "Design to appeal to your customer motives.",
+        },
+        {
+          item: "Customer triggers to understand what your customers are doing.",
+        },
+        {
+          item: "Promote action and generate leads.",
+        },
+      ],
+    },
+    {
+      title: "Optimize",
+      content:
+        "A variety of screen sizes, resolution, and other factors are taken into consideration. ",
+      image: featureTabDM03,
+      lists: [
+        {
+          item: "Design for mobile, tablet, and desktop.",
+        },
+        {
+          item: "Optimize core pages for keywords.",
+        },
+        {
+          item: "Submit to search engines for indexing.",
+        },
+        {
+          item: "Launch your new website design.",
+        },
+      ],
+    },
+  ],
+};
 export const ParallaxOneData = {
   iconName: "mei-team",
   title: "Great things in business are never done by one person.",
