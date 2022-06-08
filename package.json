@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Wes <wsackenheim@artscube.biz>",
   "dependencies": {
+    "@uptimeventures/gatsby-source-rss": "^0.4.0",
     "bootstrap": "^4.6.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "gatsby": "^3.0.1",
