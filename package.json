@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Wes <wsackenheim@artscube.biz>",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "eslint-import-resolver-alias": "^1.1.2",
@@ -16,6 +16,7 @@
     "gatsby-plugin-react-helmet": "^4.0.0",
     "gatsby-plugin-sharp": "^3.0.0",
     "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-source-hubspot": "^2.3.0",
     "gatsby-source-rss-feed": "^1.2.2",
     "gatsby-transformer-sharp": "^3.0.0",
     "prop-types": "^15.7.2",

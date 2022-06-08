@@ -54,18 +54,7 @@ module.exports = {
         productionOnly: true,
       },
     },
-    {
-      resolve: `gatsby-source-rss-feed`,
-      options: {
-        url: `https://blog.artscube.biz/rss.xml`,
-        name: `GatsbyBlog`,
-        parserOption: {
-          customFields: {
-            channel: ["title", "link", "description"],
-          },
-        },
-      }
-    }
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
