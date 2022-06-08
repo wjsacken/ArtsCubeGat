@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Meipaly Gatsby Js Template`,
+    title: `Arts Cube Marketing`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@thewessack`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -58,7 +58,12 @@ module.exports = {
       resolve: `gatsby-source-rss-feed`,
       options: {
         url: `https://blog.artscube.biz/rss.xml`,
-        name: `BlogRSS`,
+        name: `GatsbyBlog`,
+        parserOption: {
+          customFields: {
+            channel: ["title", "link", "description"],
+          },
+        },
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
