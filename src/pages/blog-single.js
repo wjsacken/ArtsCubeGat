@@ -6,7 +6,6 @@ import BlogDetails from "@/components/blog-details";
 import MenuContextProvider from "@/context/menu-context";
 import SearchContextProvider from "@/context/search-context";
 import HeaderOne from "@/components/header-one";
-import JSONData from "@/components/blog.json"
 
 
 const BlogSinglePage = () => {
