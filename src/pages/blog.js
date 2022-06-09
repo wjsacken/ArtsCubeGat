@@ -14,7 +14,6 @@ const BlogPage = () => {
         <Layout PageTitle="Blog 01 Page">
           <HeaderOne />
           <PageBanner title="Blog 01" name="Blog" />
-
           <BlogOne />
           <Footer />
         </Layout>

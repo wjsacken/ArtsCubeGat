@@ -4,7 +4,7 @@ import SectionTitle from "@/components/section-title";
 import { FeatureTabData } from "@/data";
 
 const FeatureTabOne = () => {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(1);
   const { sectionContent, posts } = FeatureTabData;
   return (
     <section className="commonSection chooseUs">

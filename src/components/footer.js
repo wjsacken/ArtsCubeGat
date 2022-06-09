@@ -13,7 +13,10 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a>
               <p>
-                We're a business too and understand every dollar matters. Our team loves what we do, we care about your business, and understand your investment.
+                Welcome to our web design agency. Lorem ipsum is simply free
+                text dolor sit amet consectetur adipisicing elit. Tempore
+                corrupti temporibus fuga earum asperiores, alias excepturi sit
+                mpedit fugit laudantium.
               </p>
             </aside>
           </div>
@@ -21,15 +24,13 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">contact</h3>
               <p>
-                604 Lee Street, Salisbury, NC
+                66 Broklyn Street, New York
                 <br />
                 United States of America
               </p>
+              <p>P: 666 888 000</p>
               <p>
-                P: <a href="tel:833-737-8481">833 737 8481</a>
-              </p>
-              <p>
-                E: <a href="mailto:helpme@artscube.biz">helpme@artscube.biz</a>
+                E: <a href="#">needhelp@meipaly.com</a>
               </p>
             </aside>
           </div>
@@ -38,18 +39,18 @@ const Footer = () => {
               <h3 className="widget_title">social</h3>
               <ul>
                 <li>
-                  <a href="https://twitter.com/arts_cube?lang=en">
+                  <a href="#">
                     <i className="fa fa-twitter"></i>Twitter
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/ArtsCubeMarketing">
+                  <a href="#">
                     <i className="fa fa-facebook-square"></i>Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/3807143/admin/">
-                    <i className="fa fa-linkedin"></i>LinkedIn
+                  <a href="#">
+                    <i className="fa fa-youtube-play"></i>Youtube
                   </a>
                 </li>
               </ul>
@@ -60,7 +61,7 @@ const Footer = () => {
           <div className="col-lg-12 col-sm-12 text-center">
             <div className="copyright">
               © copyright {new Date().getFullYear()} by{" "}
-              <a href="https://artscube.biz">Art's Cube</a>
+              <a href="#">Layerdrops.com</a>
             </div>
           </div>
         </div>

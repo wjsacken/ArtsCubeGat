@@ -59,7 +59,7 @@ License URI:
 }
 .logo {
   text-align: left;
-  padding: 0 0 15px;
+  padding: 0 0 39px;
 }
 .logo img {
   max-width: 100%;
@@ -76,7 +76,7 @@ License URI:
   list-style: none;
   display: inline-block;
   line-height: 0.8;
-  padding: 44px 20px 28px;
+  padding: 0 20px 53px;
   position: relative;
 }
 .mainmenu ul li a {
@@ -1253,7 +1253,7 @@ License URI:
 / 13. Ready Section
 ------------------------------------------------------*/
 .ready {
-  background: url(../images/bg/4bg.jpg) no-repeat center center / cover;
+  background: url(../images/bg/4.jpg) no-repeat center center / cover;
 }
 .ready .sec_title {
   margin: 0;

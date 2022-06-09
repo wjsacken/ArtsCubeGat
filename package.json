@@ -3,11 +3,8 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Wes <wsackenheim@artscube.biz>",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@uptimeventures/gatsby-source-rss": "^0.4.0",
-    "bootstrap": "^4.6.0",
-    "eslint-import-resolver-alias": "^1.1.2",
     "gatsby": "^3.0.1",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",
     "gatsby-plugin-image": "^1.0.0",
@@ -16,20 +13,20 @@
     "gatsby-plugin-react-helmet": "^4.0.0",
     "gatsby-plugin-sharp": "^3.0.0",
     "gatsby-source-filesystem": "^3.0.0",
-    "gatsby-source-hubspot": "^2.3.0",
-    "gatsby-source-rss-feed": "^1.2.2",
     "gatsby-transformer-sharp": "^3.0.0",
     "prop-types": "^15.7.2",
+    "react-helmet": "^6.1.0",
+    "bootstrap": "^4.6.0",
     "react": "17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-countup": "^4.3.3",
     "react-dom": "17.0.1",
-    "react-helmet": "^6.1.0",
     "react-modal-video": "^1.2.6",
     "react-scroll": "^1.8.1",
     "react-visibility-sensor": "^5.1.1",
     "swiper": "^6.4.6",
-    "typeface-oswald": "^1.1.13"
+    "typeface-oswald": "^1.1.13",
+    "eslint-import-resolver-alias": "^1.1.2"
   },
   "devDependencies": {
     "prettier": "2.2.1"

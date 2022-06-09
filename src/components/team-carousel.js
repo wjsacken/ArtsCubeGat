@@ -14,7 +14,7 @@ const TeamCarousel = () => {
   const { sectionContent, posts } = TeamOneData;
   const carouselOptions = {
     spaceBetween: 0,
-    loop: false,
+    loop: true,
     slidesPerView: 1,
     pagination: {
       el: "#team-carousel-pagination",
@@ -80,7 +80,7 @@ const TeamCarousel = () => {
             <TeamCard data={post} />
           </SwiperSlide>
         ))}
-        
+        <div className="swiper-pagination" id="team-carousel-pagination"></div>
       </Swiper>
     </section>
   );

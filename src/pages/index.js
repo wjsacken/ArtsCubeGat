@@ -29,7 +29,12 @@ const HomeOne = () => {
           <AboutTwo />
           <VideoTwo />
           <SubscribeForm />
+          <PortfolioHome />
+          <FunfactOne />
+          <TrustedClient />
           <TeamCarousel />
+          <ClientCarouselOne />
+          <ParallaxOne />
           <BlogHome />
           <CallToActionOne extraClassName="ready" />
           <Footer />
